@@ -35,6 +35,5 @@ def Run():
         print(Repeat(CrypWord))
     else:
         print("please enter another word and select one of the above options")
-    
 
 Run()
