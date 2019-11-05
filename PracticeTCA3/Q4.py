@@ -6,7 +6,7 @@ def isFusionShot(slug1, slug2):
 
 def isDefectiveShot(slug1, slug2):
     if isFusionShot(slug1, slug2) == False:
-        if slug1 == "Infurnus" and "AquaBeek" or "AquaBeek" and "Infurnus":
+        if slug1 and slug2 == "Infurnus" and "AquaBeek" or "AquaBeek" and "Infurnus":
             return True
     else:
         return False
